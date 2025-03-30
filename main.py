@@ -344,7 +344,7 @@ class WardenPageOne(Screen):
 
 
 
-class Warden(App[None]):
+class Warden(App):
 
     CSS_PATH = "warden.tcss"
 
