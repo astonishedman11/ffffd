@@ -348,19 +348,15 @@ class Warden(App[None]):
 
     CSS_PATH = "warden.tcss"
 
-    SCREENS = {
+SCREENS = {
+    "a": WardenPageOne,
+    "b": WardenPageTwo,
+    "c": WardenPageThree,
+}
 
-        "a": WardenPageOne,
+self.push_screen(ResultScreen("Ваш текст"))
+self.push_screen(Errors())
 
-        "b": WardenPageTwo,
-
-        "c": WardenPageThree,
-
-        "result": ResultScreen,
-
-        "error": Errors,
-
-    }
 
 
 
