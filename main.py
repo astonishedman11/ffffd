@@ -350,15 +350,15 @@ class Warden(App[None]):
 
     SCREENS = {
 
-        "a": WardenPageOne(),
+        "a": WardenPageOne,
 
-        "b": WardenPageTwo(),
+        "b": WardenPageTwo,
 
-        "c": WardenPageThree(),
+        "c": WardenPageThree,
 
-        "result": ResultScreen(),
+        "result": ResultScreen,
 
-        "error": Errors(),
+        "error": Errors,
 
     }
 
